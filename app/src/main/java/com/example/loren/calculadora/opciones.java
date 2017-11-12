@@ -1,5 +1,6 @@
 package com.example.loren.calculadora;
 
+import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
@@ -10,11 +11,15 @@ import android.widget.Toast;
 import java.util.ArrayList;
 
 public class opciones extends AppCompatActivity {
-    Button mBotonSuma;
+
     Switch mSwitchSuma;
     Switch mSwitchResta;
     Switch mSwitchMultiplacion;
     Switch mSwitchDivision;
+
+    boolean estadoSuma;
+    private Bundle infoOpciones;
+    Intent enviarDatos;
 
 
     @Override
@@ -41,8 +46,30 @@ public class opciones extends AppCompatActivity {
 
         }*/
 
+    public void onClick(View v) {
+
+        if (v.getId() == R.id.switchSuma) {
+
+            if (mSwitchSuma.isChecked()) {
+                estadoSuma = true;
+                infoOpciones.putBoolean("estadoSwitchSumar", estadoSuma);
+                enviarDatos.putExtras(infoOpciones);
+                startActivity(enviarDatos);
+
+
+            } else {
+                estadoSuma = false;
+                infoOpciones.putBoolean("estadoSwitchSumar", estadoSuma);
+                enviarDatos.putExtras(infoOpciones);
+                startActivity(enviarDatos);
+            }
+
+        }
+
+    }
     @Override
-    protected void onSaveInstanceState(Bundle outState) {
+    protected void onSaveInstanceState (Bundle outState){
         super.onSaveInstanceState(outState);
+        outState.putBoolean("botonSuma",estadoSuma);
     }
 }
