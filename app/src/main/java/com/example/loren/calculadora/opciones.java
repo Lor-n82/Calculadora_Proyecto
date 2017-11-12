@@ -54,14 +54,14 @@ public class opciones extends AppCompatActivity {
                 estadoSuma = true;
                 infoOpciones.putBoolean("estadoSwitchSumar", estadoSuma);
                 enviarDatos.putExtras(infoOpciones);
-                //startActivity(enviarDatos);
+                startActivity(enviarDatos);
 
 
             } else {
                 estadoSuma = false;
                 infoOpciones.putBoolean("estadoSwitchSumar", estadoSuma);
                 enviarDatos.putExtras(infoOpciones);
-                //startActivity(enviarDatos);
+                startActivity(enviarDatos);
             }
 
         }

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Calculator</string>
+
+    <string name="C">C</string>
+    <string name="simboloRaiz">√</string>
+    <string name="simboloDivision">÷</string>
+    <string name="Num7">7</string>
+    <string name="Num8">8</string>
+    <string name="Num9">9</string>
+    <string name="simboloMultiplicacion">x</string>
+    <string name="Num4">4</string>
+    <string name="Num5">5</string>
+    <string name="Num6">6</string>
+    <string name="simboloResta">-</string>
+    <string name="Num1">1</string>
+    <string name="Num2">2</string>
+    <string name="Num3">3</string>
+    <string name="simboloSuma">+</string>
+    <string name="simboloMasMenos">±</string>
+    <string name="Num0">0</string>
+    <string name="simboloComa">,</string>
+    <string name="simboloResultado">=</string>
+    <string name="simboloPotencia">^</string>
+    <string name="opciones">OPTIONS</string>
+    <string name="salir">EXIT</string>
+
+    <string name="habilitar_operadores">Enable / Disable Operations</string>
+    <string name="Idiomas">Select your languaje</string>
+    <string name="ColoresOperandos">Select the color of the operands</string>
+    <string name="ColoresOperadores">Select the color of the operators</string>
+    <string name="ColoresOperadoresyOperandos">Select the color of the operators and / or Operands</string>
+    <string name="suma">Sum</string>
+    <string name="resta">subtraction</string>
+    <string name="multiplicacion">multiplication</string>
+    <string name="division">Division</string>
+
+    <string name="spn_Operadores">Select the color of the operators</string>
+    <string-array name="OperadorColores">
+        <item>Red</item>
+        <item>Green</item>
+        <item>Blue</item>
+    </string-array>
+
+    <string name="spn_Operandos">Select the color of the operands</string>
+    <string-array name="OperandoColores">
+        <item>Red</item>
+        <item>Green</item>
+        <item>Blue</item>
+    </string-array>
+</resources>

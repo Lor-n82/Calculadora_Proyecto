@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Kalkulagailu</string>
+
+    <string name="C">C</string>
+    <string name="simboloRaiz">√</string>
+    <string name="simboloDivision">÷</string>
+    <string name="Num7">7</string>
+    <string name="Num8">8</string>
+    <string name="Num9">9</string>
+    <string name="simboloMultiplicacion">x</string>
+    <string name="Num4">4</string>
+    <string name="Num5">5</string>
+    <string name="Num6">6</string>
+    <string name="simboloResta">-</string>
+    <string name="Num1">1</string>
+    <string name="Num2">2</string>
+    <string name="Num3">3</string>
+    <string name="simboloSuma">+</string>
+    <string name="simboloMasMenos">±</string>
+    <string name="Num0">0</string>
+    <string name="simboloComa">,</string>
+    <string name="simboloResultado">=</string>
+    <string name="simboloPotencia">^</string>
+    <string name="opciones">AUKERAK</string>
+    <string name="salir">IRTEN</string>
+
+        <string name="habilitar_operadores">Gaitu / Desgaitu operazioak</string>
+    <string name="Idiomas">Aukeratu hizkuntza</string>
+    <string name="ColoresOperandos">Selecciona el color de los operandos</string>
+    <string name="ColoresOperadores">Selecciona el color de los operadores</string>
+    <string name="ColoresOperadoresyOperandos">Selecciona el color de los operadores y/o Operandos</string>
+    <string name="suma">Batuketa</string>
+    <string name="resta">Kenketa</string>
+    <string name="multiplicacion">Biderketa</string>
+    <string name="division">Zatiketa</string>
+
+    <string name="spn_Operadores">Elige el color de los operadores</string>
+    <string-array name="OperadorColores">
+        <item>Gorria</item>
+        <item>Verdea</item>
+        <item>Urdina</item>
+    </string-array>
+
+    <string name="spn_Operandos">Elija el color de los operandos</string>
+    <string-array name="OperandoColores">
+        <item>Gorria</item>
+        <item>Verdea</item>
+        <item>Urdina</item>
+    </string-array>
+</resources>
