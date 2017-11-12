@@ -24,11 +24,11 @@ public class opciones extends AppCompatActivity {
 
         mSwitchSuma = (Switch) findViewById(R.id.switchSuma);
         mSwitchResta = (Switch) findViewById(R.id.switchResta);
-        mSwitchMultiplacion = (Switch) findViewById(R.id.switchResta);
+        mSwitchMultiplacion = (Switch) findViewById(R.id.switchMultiplicacion);
         mSwitchDivision = (Switch) findViewById(R.id.switchDivision);
 
 
-        //mBotonSuma = (Button) findViewById(R.id.botonSuma);
+        //mBotonSuma = (Button) findViewById(R.id.botonSuma); ni idea
     }
 
     /*public void onClickSwitchSuma(View v) {
